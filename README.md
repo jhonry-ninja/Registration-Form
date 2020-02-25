@@ -1,5 +1,4 @@
-<html>
-  <body>
+
 # Registration-Form
 Now that we've learned about all of the different types of form tags, let's create a registration form using only HTML. When registering for any website, whether it's for an email account, a social media platform, or even this bootcamp, you are submitting a form! You will be using lots and lots of forms over the next few months to send data to your backend so let's get comfortable creating some forms.
 
@@ -18,6 +17,39 @@ Your HTML should contain the following tags:
 You'll get to use forms in one way or another in almost every assignment for the rest of the bootcamp so don't feel the need to memorize all of the different form tags and attributes today. You can always come back to this chapter for reference! In the next assignment, we'll create a fake blog using forms as well as all of the other HTML tags we learned today!
 
 NOTE: Remember to validate your code before submitting it. HTML validation services such as the free <a href="https://validator.w3.org/">W3C Markup Validation</a> Service are useful debuggers that help you identify rendering errors.
- </body>
 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        Basic II
+        </title>
+    </head>
+    <body>
+        <table> 
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Brendan</td>
+                    <td>Stanton</td>
+                    <td>brendanrocks@gmail.com</td>
+                    <td> FakePassword123</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Here is a list of my favorite things:</h1>
+        <ul>
+            <li>Food</li>
+            <li>Bandwidth</li>
+            <li>Coffee</li>
+            <li>Beach</li>
+        </ul>
+    </body>
 </html>
